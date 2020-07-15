@@ -1,0 +1,90 @@
+html{
+    scroll-behavior: smooth;
+}
+h1 {
+    font-family: 'Monospace';
+}
+
+.navbar-item:hover {
+    text-decoration: underline;
+    font-size: 24px;
+}
+
+#first_image {
+    height: 100%;
+    background-image: url("./img/white-and-black-marble-stone-surface-3068180.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.title {
+    font-family: "Modern No. 20";
+    font-size: 6em;
+}
+
+.subtitle {
+    font-family: "Rage";
+    font-size: 3em;
+}
+
+div.box {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+figure {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .image {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+  }
+  
+  .image .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    background-color: rgba(75, 75, 75, 0.5);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .image:hover .overlay {
+    background-color: rgba(255, 255, 255, 0);
+  }
+  
+  .image img {
+    height: 100%;
+    position: relative;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .image:hover img {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  
+  .image h1 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 18px;
+    font-family: "Lato";
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    -webkit-transform: translateY(auto);
+    -ms-transform: translateY(auto);
+    transform: translateY(auto);
+    -webkit-transition: all 0.2s cubic-bezier(0.88, -0.99, 0, 1.81);
+    transition: all 0.2s cubic-bezier(0.88, -0.99, 0, 1.81);
+  }
